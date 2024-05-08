@@ -6,12 +6,10 @@ export default {}
 <template>
   <div class="wrapper">
   <div class="menu">
-    
-    <img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\options.png" alt="options.png">
-    <img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\portfolio.png" alt="portfolio.png">
-    <img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\study.png" alt="study.png">
-    <img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\diary.png" alt="dairy.png"> 
-  
+    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\options.png" alt="options.png"></a> 
+    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\portfolio.png" alt="portfolio.png"></a>
+    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\diary.png" alt="dairy.png"></a>
+    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\study.png" alt="study.png"></a>
   </div>
   <div class="first">
   <h2>Добрый вечер, {{ name }}!</h2>
