@@ -5,12 +5,9 @@ export default {}
 
 <template>
   <div class="wrapper">
-  <div class="menu">
-    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\options.png" alt="options.png"></a> 
-    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\portfolio.png" alt="portfolio.png"></a>
-    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\diary.png" alt="dairy.png"></a>
-    <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\study.png" alt="study.png"></a>
-  </div>
+
+    <my-component />
+    
   <div class="first">
   <h2>Добрый вечер, {{ name }}!</h2>
   <div class="box-Schedule">
@@ -71,35 +68,35 @@ export default {}
 <style scoped>
 
 .first-lesson {
-  width: 340px;
+  width: 360px;
   height: 70px;
   border-radius: 15px;
   border: 1px solid #ab00ea;
 }
 
 .second-lesson {
-  width: 340px;
+  width: 360px;
   height: 70px;
   border-radius: 15px;
   border: 1px solid #ab00ea;
 }
 
 .third-lesson {
-  width: 340px;
+  width: 360px;
   height: 70px;
   border-radius: 15px;
   border: 1px solid #ab00ea;
 }
 
 .four-lesson {
-  width: 340px;
+  width: 360px;
   height: 70px;
   border-radius: 15px;
   border: 1px solid #ab00ea;
 }
 
 .five-lesson {
-  width: 340px;
+  width: 360px;
   height: 70px;
   border-radius: 15px;
   border: 1px solid #ab00ea;
@@ -136,7 +133,7 @@ export default {}
 
 .box-Schedule {
   max-width: 100%;
-  width: 379px;
+  width: 400px;
   height: 611px;
   background: rgb(255, 255, 255);
   border-radius: 15px;
@@ -161,7 +158,7 @@ export default {}
   height: 258px;
   background: rgb(255, 255, 255);
   border-radius: 15px;
-  margin-left: 18px;
+  margin-left: 30px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
 .box_Comments h3 {
@@ -175,7 +172,7 @@ export default {}
   height: 409px;
   background: rgb(255, 255, 255);
   border-radius: 15px;
-  margin-left: 18px;
+  margin-left: 30px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
 

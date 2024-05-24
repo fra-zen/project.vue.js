@@ -15,22 +15,6 @@ body {
   align-items: start;
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 110px;
-  width: 63px;
-  height: 100vh;
-  background: rgb(153, 0, 255);
-  background: linear-gradient(
-    108deg,
-    rgba(153, 0, 255, 0.9809173669467787) 26%,
-    rgba(243, 121, 253, 1) 93%
-  );
-}
-
 h2 {
   font-size: 34px;
   text-align: center;
