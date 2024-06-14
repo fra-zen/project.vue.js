@@ -2,10 +2,10 @@
 <template>
     
     <div class="menu">
-      <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\options.png" alt="options.png"></a> 
-      <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\portfolio.png" alt="portfolio.png"></a>
-      <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\diary.png" alt="dairy.png"></a>
-      <a href=""><img src="D:\Илья\Desktop\project.vue.js\LXP IThub\src\components\icons\study.png" alt="study.png"></a>
+      <a href=""><img src="./components/icons/options.png" alt="options.png"></a> 
+      <a href="#/reg"><img src="./components/icons/portfolio.png" alt="portfolio.png"></a>
+      <a href=""><img src="./components/icons/diary.png" alt="dairy.png"></a>
+      <a href=""><img src="./components/icons/study.png" alt="study.png"></a>
     </div>
     
 </template>
